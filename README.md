@@ -2,6 +2,10 @@
 
 PerpusYUK adalah aplikasi web manajemen perpustakaan berbasis JSP, Java, Tomcat, dan MySQL. Aplikasi ini mendukung login admin/anggota, manajemen buku, manajemen anggota, peminjaman, notifikasi, dan laporan.
 
+## Demo Online
+
+Demo public: https://perpusyuk-web-production.up.railway.app
+
 ## Fitur
 
 - Login dan registrasi anggota

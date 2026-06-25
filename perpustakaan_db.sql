@@ -126,7 +126,7 @@ CREATE TABLE `users` (
   `username` varchar(50) NOT NULL,
   `password` varchar(100) NOT NULL,
   `role` varchar(20) NOT NULL,
-  `tanggal_daftar` date DEFAULT curdate(),
+  `tanggal_daftar` date DEFAULT (CURRENT_DATE),
   `email` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
